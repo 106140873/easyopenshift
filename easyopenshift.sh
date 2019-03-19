@@ -1,5 +1,5 @@
 #!/bin/bash
-
+yum install bash-completion-extras.noarch -y
 echo -n "正在配置iptables防火墙……"
 systemctl stop firewalld > /dev/null 2>&1
 systemctl disable firewalld  > /dev/null 2>&1
